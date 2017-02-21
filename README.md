@@ -1,9 +1,44 @@
 # PoiziToast
 Android customizable Toast
 
+Screenshots
+--
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/normal.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/error.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/info.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/warning.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/success.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/custom.png" width="250">
+
+Dependency
+--
+
 
 Usage
 --
+
+### 1.Add this in your root build.gradle file:
+```gradle
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+
+
+### 2.Add this to your module's `build.gradle` file:
+```gradle
+dependencies {
+	...
+	compile 'com.github.FarshidABZ:PoiziToast:v1.0'
+}
+```
+
+
+### 3.How to use:
+
 Each method always returns a `PoiziToast` object, so you can customize the Toast much more. **DON'T FORGET THE `show()` METHOD!**
 
 To display an Normal Toast:
@@ -55,7 +90,7 @@ Custom Toast:
 ```
 
 ### Attributes
-
+--
 |attribute name|attribute description|
 |:-:|:-:|
 |icon|The icon of Poizi Toast.|
