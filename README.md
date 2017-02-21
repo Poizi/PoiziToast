@@ -1,24 +1,25 @@
 # PoiziToast
+
 Android customizable Toast
 
-Screenshots
---
-<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/normal.png" width="250">
-<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/error.png" width="250">
-<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/info.png" width="250">
-<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/warning.png" width="250">
-<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/success.png" width="250">
-<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/custom.png" width="250">
 
-Dependency
---
+## Screenshots
+
+![Normal](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/normal.png)
+![Error](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/error.png)
+![Info](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/info.png)
+![Warning](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/warning.png)
+![Success](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/success.png)
+![Custom](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/custom.png)
+
+## Dependency
+
+## Usage
+
+1. Add this in your root build.gradle file:
 
 
-Usage
---
-
-### 1.Add this in your root build.gradle file:
-```gradle
+``` gradle
 allprojects {
 	repositories {
 		...
@@ -28,8 +29,9 @@ allprojects {
 ```
 
 
-### 2.Add this to your module's `build.gradle` file:
-```gradle
+2. Add this to your module's `build.gradle` file:
+
+``` gradle
 dependencies {
 	...
 	compile 'com.github.FarshidABZ:PoiziToast:v1.0'
@@ -37,67 +39,66 @@ dependencies {
 ```
 
 
-### 3.How to use:
+3. How to use:
 
 Each method always returns a `PoiziToast` object, so you can customize the Toast much more. **DON'T FORGET THE `show()` METHOD!**
 
-To display an Normal Toast:
+- Normal Toast:
 ``` java
 PoiziToast.with(this)
-                .normal("Normal Toast", Toast.LENGTH_SHORT)
-                .show();
+	.normal("Normal Toast", Toast.LENGTH_SHORT)
+	.show();
 ```
 
-Warning Toast:
+- Warning Toast:
 ``` java
 PoiziToast.with(this)
-                .warning("warning Toast", Toast.LENGTH_SHORT)
-                .show();
+	.warning("warning Toast", Toast.LENGTH_SHORT)
+	.show();
 ```
 
-Error Toast:
+- Error Toast:
 ``` java
 PoiziToast.with(this)
-                .error("error Toast", Toast.LENGTH_SHORT)
-                .show();
+	.error("error Toast", Toast.LENGTH_SHORT)
+	.show();
 ```
 
-Info Toast:
+- Info Toast:
 ``` java
 PoiziToast.with(this)
-                .info("info Toast", Toast.LENGTH_SHORT)
-                .show();
+	.info("info Toast", Toast.LENGTH_SHORT)
+	.show();
 ```
 
-Success Toast:
+- Success Toast:
 ``` java
 PoiziToast.with(this)
-                .success("success", Toast.LENGTH_SHORT)
-                .show();
+	.success("success", Toast.LENGTH_SHORT)
+	.show();
 ```
 
-Custom Toast:
+- Custom Toast:
 ``` java
-        PoiziToast.with(this)
-                .setBackgroundColor(getResources().getColor(R.color.colorAccent))
-                .setIcon(R.drawable.battery_charging_full)
-                .setGravity(Gravity.BOTTOM)
-                .setTextColor(R.color.textColor)
-                .setTextTypeFace(Typeface.createFromAsset(getAssets(), "fonts/font.ttf"))
-                .setTextSize(14)
-                .makeToast("custom text", Toast.LENGTH_SHORT)
-                .show();
+PoiziToast.with(this)
+	.setBackgroundColor(getResources().getColor(R.color.colorAccent))
+	.setIcon(R.drawable.battery_charging_full)
+	.setGravity(Gravity.BOTTOM)
+	.setTextColor(R.color.textColor)
+	.setTextTypeFace(Typeface.createFromAsset(getAssets(), "fonts/font.ttf"))
+	.setTextSize(14)
+	.makeToast("custom text", Toast.LENGTH_SHORT)
+	.show();
 ```
 
-### Attributes
---
-|attribute name|attribute description|
-|:-:|:-:|
-|icon|The icon of Poizi Toast.|
-|gravity|The gravity of Poizi Toast.|
-|TextSize|The message's text size.|
-|TextColor|The message's text color.|
-|TextTypeFace|The message's text type face.|
-|BackgroundColor|The background color of Poizi Toast.|
+## Attributes
 
 
+| attribute name  |        attribute description         |
+| :-------------: | :----------------------------------: |
+|      icon       |       The icon of Poizi Toast.       |
+|     gravity     |     The gravity of Poizi Toast.      |
+|    TextSize     |       The message's text size.       |
+|    TextColor    |      The message's text color.       |
+|  TextTypeFace   |    The message's text type face.     |
+| BackgroundColor | The background color of Poizi Toast. |
