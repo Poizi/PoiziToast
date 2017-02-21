@@ -26,11 +26,11 @@ class PoiziToastOptionModel {
 
     private
     @ColorInt
-    int SUCCESS_COLOR = Color.parseColor("#FF00FF57");
+    int SUCCESS_COLOR = Color.parseColor("#37BC9B");
 
     private
     @ColorInt
-    int WARNING_COLOR = Color.parseColor("#FFA900");
+    int WARNING_COLOR = Color.parseColor("#E08A1E");
 
     private int gravity;
     private int backgroundColor;
