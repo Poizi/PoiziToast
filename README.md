@@ -1,16 +1,16 @@
-# PoiziToast
+# Poizi Toast
 
 Android customizable Toast
 
-
 ## Screenshots
 
-![Normal](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/normal.png)
-![Error](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/error.png)
-![Info](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/info.png)
-![Warning](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/warning.png)
-![Success](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/success.png)
-![Custom](https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/custom.png)
+<img src="https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/normal.png" width="250" alt="Normal" />
+<img src="https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/error.png" width="250" alt="Error" />
+<img src="https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/info.png" width="250" alt="Info" />
+<img src="https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/warning.png" width="250" alt="Warning" />
+<img src="https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/success.png" width="250" alt="Success" />
+<img src="https://raw.githubusercontent.com/Poizi/PoiziToast/master/screenshots/custom.png" width="250" alt="Custom" />
+
 
 ## Dependency
 
