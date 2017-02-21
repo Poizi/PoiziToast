@@ -55,8 +55,9 @@ public class MainActivity extends AppCompatActivity {
                 .setIcon(R.drawable.battery_charging_full)
                 .setGravity(Gravity.BOTTOM)
                 .setTextColor(R.color.textColor)
+                .setTextSize(14)
                 .setTextTypeFace(Typeface.createFromAsset(getAssets(), "fonts/irsans.ttf"))
-                .success("custom text", Toast.LENGTH_SHORT)
+                .makeToast("custom text", Toast.LENGTH_SHORT)
                 .show();
     }
 }

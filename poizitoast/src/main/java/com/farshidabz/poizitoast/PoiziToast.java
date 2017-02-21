@@ -70,6 +70,12 @@ public class PoiziToast {
         return exhibitioner;
     }
 
+    public Exhibitioner makeToast(String message, @Duration int duration) {
+        poiziToastOptionModel.setMessage(message);
+        poiziToastOptionModel.setDuration(duration);
+        return exhibitioner;
+    }
+
     public PoiziToast setTextTypeFace(Typeface textTypeFace) {
         poiziToastOptionModel.setTextTypeFace(textTypeFace);
         return poiziToast;
