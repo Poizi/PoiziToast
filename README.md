@@ -17,7 +17,7 @@ Dependency
 Usage
 --
 
-1. Add this in your root build.gradle file:
+1.Add this in your root build.gradle file:
 ```gradle
 allprojects {
 	repositories {
@@ -27,7 +27,7 @@ allprojects {
 }
 ```
 
-2. Add this to your module's `build.gradle` file:
+2.Add this to your module's `build.gradle` file:
 ```gradle
 dependencies {
 	...
@@ -35,7 +35,7 @@ dependencies {
 }
 ```
 
-3. How to use:
+3.How to use:
 
 Each method always returns a `PoiziToast` object, so you can customize the Toast much more. **DON'T FORGET THE `show()` METHOD!**
 
