@@ -34,7 +34,7 @@ allprojects {
 ``` gradle
 dependencies {
 	...
-	compile 'com.github.FarshidABZ:PoiziToast:v1.0'
+	compile 'com.github.farshidabz:poizitoast:v1.0.1'
 }
 ```
 
