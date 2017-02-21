@@ -1,6 +1,14 @@
 # PoiziToast
 Android customizable Toast
 
+Screenshots
+--
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/normal.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/error.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/info.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/warning.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/success.png" width="250">
+<img src="https://github.com/FarshidABZ/PoiziToast/blob/master/art/custom.png" width="250">
 
 Usage
 --
@@ -55,7 +63,7 @@ Custom Toast:
 ```
 
 ### Attributes
-
+--
 |attribute name|attribute description|
 |:-:|:-:|
 |icon|The icon of Poizi Toast.|
