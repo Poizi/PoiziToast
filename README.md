@@ -1,6 +1,6 @@
 # Poizi Toast
 
-Android customizable Toast
+The PoiziToast library enhances and builds upon the Android Toast class. This library offers many customization options over the standard Android Toast class.
 
 ## Screenshots
 
